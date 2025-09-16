@@ -7,16 +7,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("app")
+//http://localhost:8088/app/get
 public class Controller {
 	@GetMapping("/get")
 	public String getReqRes() {
-		return "get gihyun";
+		return "This is AS-IS get method";
 	}
 	
-	//http://localhost:8080/app/post
+	//http://localhost:8088/app/post
 	@PostMapping("/post")
 	public String getReqRes2() {
-		return "post gihyun";
+		return "This is TO-BE get method";
 	}
 	
 }
