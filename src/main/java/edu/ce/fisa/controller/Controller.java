@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 	@GetMapping("/get")
 	public String getReqRes() {
-		return "This is TO-BE get methodwow!";
+		return "This is TO-BsdefE get methodwow!";
 	}
 	
 	//http://localhost:8088/app/post
