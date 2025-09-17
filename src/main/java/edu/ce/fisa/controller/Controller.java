@@ -17,7 +17,7 @@ public class Controller {
 	//http://localhost:8088/app/post
 	@PostMapping("/post")
 	public String getReqRes2() {
-		return "This is TO-BE post method!!!!!";
+		return "This is TO-BE rdgbcfbrdghpost method!!!!!";
 	}
 	
 }
