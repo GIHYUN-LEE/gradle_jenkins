@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 	@GetMapping("/get")
 	public String getReqRes() {
-		return "Kang Han Sol! !";
+		return "Kang Hsefsefsefan Sol! !";
 	}
 	
 	//http://localhost:8088/app/post
 	@PostMapping("/post")
 	public String getReqRes2() {
-		return "This is TO-BsefefE rdgbcfbrdghpost method!!!!!";
+		return "This is TsefsefO-BsefefE rdgbcfbrdghpost method!!!!!";
 	}
 	
 }
