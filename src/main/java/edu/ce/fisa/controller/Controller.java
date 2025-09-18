@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 	@GetMapping("/get")
 	public String getReqRes() {
-		return "shit!";
+		return "shi23424!";
 	}
 	
 	//http://localhost:8088/app/post
